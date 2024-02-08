@@ -1,0 +1,150 @@
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #6f6f6f;
+}
+
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    text-align: center;
+}
+
+
+.login-title {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(60, 60, 60);
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #6f6f6f;
+    border-top: 0px;
+    border-radius: 0px;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+
+input[type=password] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #616262;
+    border-top: 0px;
+    border-radius: 0px;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #af0404;
+    outline: 0;
+    background-color: #f8f6f6e3;
+    color: #ECF0F5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px; /* Adjust the border-radius for roundness */
+    background-color: #e8edf0; /* Button background color */
+    color: #818080; /* Button text color */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; /* Prevent text from breaking into multiple lines */
+
+}
+
+.custom-btn:hover {
+    background-color: #626364; /* Change the background color on hover */
+}
+
+.btn-link {
+    text-decoration: underline;
+    padding: 0; /* Optional: Remove padding to make it look more like a link */
+}
+
+.login-btm {
+    margin-top: ; /* Adjust the margin-top to add space */
+}
+
+@font-face {
+    font-family: 'myfont'; /* The name you want to use for the font */
+    src: url('./static/RobotoSlab-Medium.ttf') format('woff2'), /* Format for modern browsers */
+         url('./static/RobotoSlab-ExtraBold.ttf') format('woff'); /* Format for older browsers */
+   
+   
+         font-weight: normal;
+    font-style: normal;
+  }
+  
+  .card {
+    font-family: 'myfont', sans-serif; 
+    color: #5c5b5b;/* Use your custom font for the entire document */
+  }
+   .navbar-brand {
+    font-family: 'myfont', sans-serif; /* Use your custom font for the entire document */
+   }
+
+h2{    font-family: 'myfont', sans-serif;
+    color: #5c5c5c; /* Use your custom font for the entire document */
+}
+
+   .navbar-toggler-icon {
+    background-color: white;
+  }
+
+  .yellow-line {
+    border-top: 5px solid rgb(255, 217, 0); /* Set the border-top to create a horizontal line */
+  }
+
+
+  .spacer {
+    margin-left: 200px; /* Adjust the margin as needed for the desired gap */
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .spacer2 {
+    margin-left: 215px; /* Adjust the margin as needed for the desired gap */
+  }
